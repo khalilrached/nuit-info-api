@@ -6,9 +6,7 @@ const postRoute     = require('./routes/post.route');
 const errorHandler      = require('./middlewares/error');
 const notFoundHandler   = require('./middlewares/notFound')
 require('./config/db');
-require('dotenv').config();
-
-const PORT = process.env.PORT;
+const PORT = 3000;
 
 const app = express();
 app.use(cors({origin:'*'}));
