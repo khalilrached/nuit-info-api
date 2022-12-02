@@ -22,5 +22,5 @@ app.use(notFoundHandler);
 app.use(errorHandler);
 
 app.listen(PORT,()=>{
-    logger.info(`server started ${PORT}`);
+    logger.info(`server started`);
 });
